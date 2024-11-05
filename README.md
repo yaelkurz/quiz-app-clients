@@ -1,5 +1,6 @@
 # Quiz-App Clients
 
+This repository contains the client code for the Quiz-App project. The Quiz-App project is a quiz application that allows users to create quizzes, participate in quizzes, and moderate quizzes. The client code in this repository allows users to create quizzes, start quiz sessions, and participate in quiz sessions.
 
 The Quiz-App repository can be found [here](https://github.com/yaelkurz/quiz-app)
 
