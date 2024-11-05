@@ -1,6 +1,8 @@
 from run import main_run
 from utils import signup_user, create_new_session, create_new_quiz
 
+SESSION_ID = "4979dda2-ab8f-4aff-89d7-52b484f979c5"  # Paste session id after creating a new session (for run_participant.py)
+
 NEW_QUIZ = {
     "name": "Fruits and Vegetables",
     "description": "Fruits and Vegetables Quiz",
@@ -43,7 +45,6 @@ NEW_QUIZ = {
         },
     ],
 }
-SESSION_ID = "3e8aa1ff-27c6-49a4-b091-9a3407af88f4"  # Paste session id after creating a new session (for run_participant.py)
 if __name__ == "__main__":
 
     # user_id = signup_user(username="yael", email="yael@email.com")
@@ -54,7 +55,7 @@ if __name__ == "__main__":
     # quiz_id = create_new_quiz(NEW_QUIZ, user_id)
     # print(f"Quiz ID: {quiz_id}")
 
-    # quiz_id = "d5e9858f-d29a-4afe-89e5-393d24f29ba7"
+    quiz_id = "d5e9858f-d29a-4afe-89e5-393d24f29ba7"
 
     # session_id = create_new_session(user_id, quiz_id)
     # print(f"Session ID: {session_id}")
